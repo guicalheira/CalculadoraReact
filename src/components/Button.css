@@ -1,30 +1,42 @@
 :root{
-    --bg-button: #f0f0f0;
-    --border-button: solid 1px #888;
+    --bg-button: #fff;
+    --border-button: solid 5px #dfdfdf;
 }
 .button{
     font-size: 1.4rem;
-    background-color: var(--bg-button);
+   
     border: none;
+    background-color: var(--bg-button);
     border-right: var(--border-button);
     border-bottom: var(--border-button) ;
+    border-top: var(--border-button) ;
+    border-left: var(--border-button) ;
     outline: none;
    
 }
 .button:active{
-    background-color: lightgray;
+    background-color:  #efefef;
 }
+
 
 .button.double{
     grid-column: span 2;
+    background-color: lightblac;
 }
 .button.triple{ 
     grid-column: span 3;
 }
 .button.operation{
-    background-color: #077b8a ;
-    color: #fff;
+    background-color: #D3D3D3;
+    
 }
 .button.operation:active{
-    background-color: #077b8acc;
+    background-color: #dfdfdfcc;
+}
+.button.equals{
+    background-color: #0000FF;
+    
+}
+.button.equals:active{
+    background-color: #0000FFcc;
 }
