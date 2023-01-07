@@ -8,7 +8,7 @@ classes += props.maior ? "maior" : " "
     return(
      
         <div  className={classes}>
-        {props.value} {props.antigo > 0 && props.antigo}
+        {props.value} {props.elder}
         </div>
     )
 }
